@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="展雲-管理處-資訊部" webLink="http://" view-date="2020-01-30" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.8.10" locale="zh_TW">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="名稱" width="354" order="0"/>
+        <field id="tpd4" name="起始日期" width="93" order="1"/>
+        <field id="tpd5" name="結束日期" width="88" order="2"/>
+        <field id="tpd6" name="期間" width="42" order="3"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="姓名" width="210" order="0"/>
+        <field id="1" name="預設角色" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="tw">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[Republic Day/New Year's Day]]></date>
+        <date year="" month="2" date="28" type="HOLIDAY"><![CDATA[Peace Memorial Day]]></date>
+        <date year="" month="4" date="4" type="HOLIDAY"><![CDATA[Children's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labor Day]]></date>
+        <date year="" month="10" date="10" type="HOLIDAY"><![CDATA[National Day]]></date>
+        <date year="2017" month="1" date="2" type="HOLIDAY"><![CDATA[Republic Day/New Year's Day]]></date>
+        <date year="2017" month="1" date="27" type="HOLIDAY"><![CDATA[Chinese New Year's Eve]]></date>
+        <date year="2017" month="1" date="28" type="HOLIDAY"><![CDATA[Chinese New Year's Day]]></date>
+        <date year="2017" month="1" date="29" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2017" month="1" date="30" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2017" month="1" date="31" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2017" month="2" date="1" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2017" month="4" date="3" type="HOLIDAY"><![CDATA[Tomb Sweeping Day]]></date>
+        <date year="2017" month="5" date="29" type="HOLIDAY"><![CDATA[Dragon Boat Festival Holiday]]></date>
+        <date year="2017" month="5" date="30" type="HOLIDAY"><![CDATA[Dragon Boat Festival]]></date>
+        <date year="2017" month="10" date="4" type="HOLIDAY"><![CDATA[Mid-Autumn Festival]]></date>
+        <date year="2017" month="10" date="9" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2018" month="2" date="15" type="HOLIDAY"><![CDATA[Chinese New Year's Eve]]></date>
+        <date year="2018" month="2" date="16" type="HOLIDAY"><![CDATA[Chinese New Year's Day]]></date>
+        <date year="2018" month="2" date="17" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2018" month="2" date="18" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2018" month="2" date="19" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2018" month="2" date="20" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2018" month="3" date="31" type="WORKING_DAY"><![CDATA[Compensation of Tomb Sweeping Day Holiday]]></date>
+        <date year="2018" month="4" date="5" type="HOLIDAY"><![CDATA[Tomb Sweeping Day]]></date>
+        <date year="2018" month="4" date="6" type="HOLIDAY"><![CDATA[Tomb Sweeping Day Holiday]]></date>
+        <date year="2018" month="6" date="18" type="HOLIDAY"><![CDATA[Dragon Boat Festival]]></date>
+        <date year="2018" month="9" date="24" type="HOLIDAY"><![CDATA[Mid-Autumn Festival]]></date>
+        <date year="2018" month="12" date="22" type="WORKING_DAY"><![CDATA[Compensation of Republic Day Holiday]]></date>
+        <date year="2018" month="12" date="31" type="HOLIDAY"><![CDATA[Republic Day Holiday]]></date>
+        <date year="2019" month="1" date="19" type="WORKING_DAY"><![CDATA[Compensation of Chinese New Year Holiday]]></date>
+        <date year="2019" month="2" date="4" type="HOLIDAY"><![CDATA[Chinese New Year's Eve]]></date>
+        <date year="2019" month="2" date="5" type="HOLIDAY"><![CDATA[Chinese New Year's Day]]></date>
+        <date year="2019" month="2" date="6" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2019" month="2" date="7" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2019" month="2" date="8" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2019" month="2" date="23" type="WORKING_DAY"><![CDATA[Compensation of Peace Memorial Holiday]]></date>
+        <date year="2019" month="3" date="1" type="HOLIDAY"><![CDATA[Peace Memorial Holiday]]></date>
+        <date year="2019" month="4" date="5" type="HOLIDAY"><![CDATA[Tomb Sweeping Day]]></date>
+        <date year="2019" month="6" date="7" type="HOLIDAY"><![CDATA[Dragon Boat Festival]]></date>
+        <date year="2019" month="9" date="13" type="HOLIDAY"><![CDATA[Mid-Autumn Festival]]></date>
+        <date year="2019" month="10" date="5" type="WORKING_DAY"><![CDATA[Compensation of National Day Holiday]]></date>
+        <date year="2019" month="10" date="11" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="1" date="23" type="HOLIDAY"><![CDATA[休假]]></date>
+        <date year="2020" month="1" date="24" type="HOLIDAY" color="#808080"><![CDATA[除夕]]></date>
+        <date year="2020" month="1" date="27" type="HOLIDAY"><![CDATA[初三]]></date>
+        <date year="2020" month="1" date="28" type="HOLIDAY"><![CDATA[初四]]></date>
+        <date year="2020" month="1" date="29" type="HOLIDAY"><![CDATA[初五]]></date>
+        <date year="2020" month="4" date="2" type="HOLIDAY"><![CDATA[清明兒童節連假]]></date>
+        <date year="2020" month="4" date="3" type="HOLIDAY"><![CDATA[清明兒童節連假]]></date>
+        <date year="2020" month="6" date="25" type="HOLIDAY"><![CDATA[端午節]]></date>
+        <date year="2020" month="6" date="26" type="HOLIDAY"><![CDATA[端午節連假]]></date>
+        <date year="2020" month="10" date="1" type="HOLIDAY"><![CDATA[中秋節]]></date>
+        <date year="2020" month="10" date="2" type="HOLIDAY"><![CDATA[中秋節連假]]></date>
+        <date year="2020" month="10" date="9" type="HOLIDAY"><![CDATA[??]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="65" name="法會" meeting="false" start="2020-02-03" duration="112" complete="0" expand="true">
+            <task id="66" name="功能清單" meeting="false" start="2020-02-03" duration="112" complete="0" expand="true">
+                <task id="67" name="基本建檔維護" meeting="false" start="2020-02-03" duration="13" complete="0" expand="false">
+                    <task id="79" name="發票建檔(PD102)" meeting="false" start="2020-02-03" duration="5" complete="0" expand="false">
+                        <task id="81" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-02-03" duration="4" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="82" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-02-07" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="86" name="客戶建檔(PD103)" color="#8cb6ce" meeting="false" start="2020-02-10" duration="4" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="false">
+                        <task id="88" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-02-10" duration="3" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="91" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-02-13" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="93" name="法會前置作業處理(PD109)" meeting="false" start="2020-02-17" duration="3" complete="0" expand="false">
+                        <task id="94" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-02-17" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="95" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-02-19" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="68" name="日常建檔登錄" meeting="false" start="2020-02-21" duration="51" complete="0" expand="false">
+                    <task id="102" name="法會訂購資料登錄(PD201)" meeting="false" start="2020-02-21" duration="8" complete="0" expand="true">
+                        <task id="115" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-02-21" duration="5" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="129" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-03-02" duration="3" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="103" name="輔銷品訂購資料登錄(PD211)" meeting="false" start="2020-03-05" duration="4" complete="0" expand="true">
+                        <task id="116" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-03-05" duration="3" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="132" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-03-10" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="104" name="展雲代辦資料登錄(PD214)" meeting="false" start="2020-03-11" duration="4" complete="0" expand="true">
+                        <task id="117" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-03-11" duration="3" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="259" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-03-16" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="105" name="車券資料修改(PD224)" meeting="false" start="2020-03-17" duration="2" complete="0" expand="true">
+                        <task id="118" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-03-17" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="264" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-03-18" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="106" name="法會預購資料登錄(PD216)" meeting="false" start="2020-03-19" duration="5" complete="0" expand="true">
+                        <task id="119" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-03-19" duration="4" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="268" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-03-25" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="107" name="往生者資料登錄(PD207)" meeting="false" start="2020-03-26" duration="5" complete="0" expand="true">
+                        <task id="120" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-03-26" duration="4" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="271" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-04-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="108" name="聯合祭祀資料登錄(PD215)" meeting="false" start="2020-04-06" duration="5" complete="0" expand="true">
+                        <task id="121" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-04-06" duration="4" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="274" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-04-10" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="109" name="法會蓮位資料登錄(PD203)" meeting="false" start="2020-04-13" duration="3" complete="0" expand="true">
+                        <task id="122" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-04-13" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="277" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-04-15" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="110" name="法會供品資料登錄(PD202)" meeting="false" start="2020-04-16" duration="3" complete="0" expand="true">
+                        <task id="123" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-04-16" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="280" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-04-20" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="111" name="法會長生祿位資料登錄(PD219)" meeting="false" start="2020-04-21" duration="3" complete="0" expand="true">
+                        <task id="124" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-04-21" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="283" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-04-23" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="112" name="法會延壽燈資料登錄(PD220)" meeting="false" start="2020-04-24" duration="3" complete="0" expand="true">
+                        <task id="125" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-04-24" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="286" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-04-28" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="113" name="法會功德主蓮位位別資料登錄(PD212)" meeting="false" start="2020-04-29" duration="3" complete="0" expand="true">
+                        <task id="126" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-04-29" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="289" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-04" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="114" name="法會收款資料登錄(PD204)" meeting="false" start="2020-05-05" duration="3" complete="0" expand="true">
+                        <task id="127" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-05" duration="2" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true"/>
+                        <task id="292" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-07" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="69" name="查詢" meeting="false" start="2020-05-08" duration="8" complete="0" expand="false">
+                    <task id="294" name="奉厝資料查詢(PD302)" meeting="false" start="2020-05-08" duration="2" complete="0" expand="false">
+                        <task id="298" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-08" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="306" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-11" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="295" name="往生者遷出資料查詢(PD308)" meeting="false" start="2020-05-12" duration="2" complete="0" expand="false">
+                        <task id="299" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-12" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="309" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-13" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="296" name="聯合祭祀資料查詢(PD306)" meeting="false" start="2020-05-14" duration="2" complete="0" expand="false">
+                        <task id="300" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-14" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="312" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-15" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="297" name="法會訂購資料查詢(PD301)" meeting="false" start="2020-05-18" duration="2" complete="0" expand="false">
+                        <task id="301" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-18" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="315" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-19" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="336" name="日常相關銷售報表" meeting="false" start="2020-05-20" duration="9" complete="0" expand="false">
+                    <task id="337" name="展雲代辦資料明細表(PD449)" meeting="false" start="2020-05-20" duration="2" complete="0" expand="false">
+                        <task id="342" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-20" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="347" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-21" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="338" name="輔銷品訂購資料明細表(PD442)" meeting="false" start="2020-05-22" duration="2" complete="0" expand="false">
+                        <task id="343" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-22" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="350" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-25" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="339" name="每日收入統計表(PD478)" meeting="false" start="2020-05-26" duration="3" complete="0" expand="false">
+                        <task id="344" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-26" duration="2" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="353" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-05-28" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="340" name="法會預購資料明細表(PD464)" meeting="false" start="2020-05-29" duration="2" complete="0" expand="false">
+                        <task id="345" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-05-29" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="356" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="71" name="法會確認函相關報表" meeting="false" start="2020-06-02" duration="8" complete="0" expand="false">
+                    <task id="362" name="確認函列印(PD426)" meeting="false" start="2020-06-02" duration="2" complete="0" expand="false">
+                        <task id="367" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-02" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="372" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-03" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="363" name="電子發票列印(PD460)" meeting="false" start="2020-06-04" duration="2" complete="0" expand="false">
+                        <task id="368" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-04" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="375" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-05" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="364" name="確認函地址標籤列印(PD413)" meeting="false" start="2020-06-08" duration="2" complete="0" expand="false">
+                        <task id="369" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-08" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="378" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-09" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="365" name="記名菩薩領取券列印(PD446)" meeting="false" start="2020-06-10" duration="2" complete="0" expand="false">
+                        <task id="370" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-10" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="381" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-11" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="73" name="法會相關資料報表" meeting="false" start="2020-06-01" duration="25" complete="0" expand="false">
+                    <task id="383" name="訂購資料明細表(PD418)" meeting="false" start="2020-06-12" duration="2" complete="0" expand="true">
+                        <task id="394" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-12" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="403" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-15" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="384" name="收款資料明細表(PD402)" meeting="false" start="2020-06-16" duration="2" complete="0" expand="true">
+                        <task id="395" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-16" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="406" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-17" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="385" name="功德文牒列印(PD427)" meeting="false" start="2020-06-18" duration="2" complete="0" expand="true">
+                        <task id="396" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-18" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="409" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-19" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="386" name="往生蓮位/香位列印(PD423)" meeting="false" start="2020-06-22" duration="2" complete="0" expand="true">
+                        <task id="397" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-22" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="412" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-23" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="387" name="車券資料明細表(PD405)" meeting="false" start="2020-06-24" duration="2" complete="0" expand="true">
+                        <task id="398" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-24" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="415" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-06-29" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="388" name="祭祀資料配置圖(PD429)" meeting="false" start="2020-06-30" duration="2" complete="0" expand="true">
+                        <task id="399" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-06-30" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="418" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-07-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="389" name="通知函劃撥單列印(PD408)" meeting="false" start="2020-07-02" duration="2" complete="0" expand="true">
+                        <task id="400" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-07-02" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="421" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-07-03" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="390" name="通知函客戶地址標籤列印(PD428)" meeting="false" start="2020-07-06" duration="2" complete="0" expand="false">
+                        <task id="401" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-07-06" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="424" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-07-07" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="391" name="台哥大通知函簡訊明細列印(PD444)(停用)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[停用]]></notes>
+                    </task>
+                </task>
+                <task id="72" name="奉厝資料相關報表" meeting="false" start="2020-07-08" duration="2" complete="0" expand="false">
+                    <task id="426" name="往生者使用登記簿(PD434)" meeting="false" start="2020-07-08" duration="2" complete="0" expand="false">
+                        <task id="427" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-07-08" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="428" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-07-09" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="78" name="聯合祭祀相關報表" meeting="false" start="2020-07-10" duration="4" complete="0" expand="false">
+                    <task id="431" name="聯合祭祀牌位列印(PD454)" meeting="false" start="2020-07-10" duration="2" complete="0" expand="false">
+                        <task id="433" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-07-10" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="436" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-07-13" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="432" name="聯合祭祀功德文牒列印(PD455)" meeting="false" start="2020-07-14" duration="2" complete="0" expand="false">
+                        <task id="434" name="撰寫流程圖" color="#8cb6ce" meeting="false" start="2020-07-14" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                        <task id="439" name="補上Table Schema" color="#8cb6ce" meeting="false" start="2020-07-15" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="150" name="功能清單(待確認)" meeting="false" start="2020-06-01" duration="1" complete="0" expand="true">
+                <task id="152" name="基本建檔維護" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="172" name="密碼權限設定(PD101)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="174" name="法會發票資料異動處理(PD111)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="176" name="產品資料登錄(PD112)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="178" name="配置圖資料登錄(PD108)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="180" name="攺制地址更新處理(PD113)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="182" name="立薏系統資料匯出處理(PD114)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[移除]]></notes>
+                    </task>
+                    <task id="184" name="往生者遷移/正位作業(PD105)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="257" name="奉厝資料錯誤更正作業(PD104)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                </task>
+                <task id="186" name="日常建檔登錄" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="188" name="法會訂單資料分割(PD213)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-03-02" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="194" name="供飯祭祀資料登錄(PD218)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-03-10" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[無作用]]></notes>
+                    </task>
+                    <task id="200" name="積福供佛資料登錄(PD223)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                </task>
+                <task id="244" name="查詢" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="328" name="法會訂購資料統計(PD303)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="330" name="權狀持有人年齡統計分析(PD309)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="332" name="改制前地址查詢(PD307)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="334" name="客戶入塔數量統計(PD304)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                </task>
+                <task id="248" name="法會確認函相關報表" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="358" name="餐券列印(PD411)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                    <task id="359" name="車券列印(PD412)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[未使用]]></notes>
+                    </task>
+                </task>
+                <task id="250" name="法會相關資料報表" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="487" name="客戶訂購資料彙總表(PD401)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="489" name="法會客戶訂購總清冊(PD448)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="491" name="超薦名冊列印(PD436)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="493" name="長生祿位列印(PD476)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="495" name="記名菩薩領取清冊(PD447)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="497" name="供花名牌列印(PD438)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="499" name="延壽燈名牌列印(PD477)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="501" name="三角旗標籤列印(PD420)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="503" name="供品標示牌列印(PD452)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="505" name="供品禮盒標籤列印(PD445)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="507" name="供品-往生者標籤列印(PD422)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="509" name="供品-陽上弟子標籤列印(PD421)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="511" name="車券銷售分析表(PD474)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="513" name="餐券資料明細表(PD404)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="515" name="祭祀資料配置資料明細表(PD424)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="517" name="祭祀資料校核明細表(PD407)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="519" name="未奉厝蓮位優惠權益明細表(PD470)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="521" name="法會往生蓮位優惠權益通知函(PD467)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="523" name="客戶基本資料表-催量(PD425)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="252" name="奉厝資料相關報表" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="465" name="備註資料明細表(PD463)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="467" name="奉厝關懷信函(PD465)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="469" name="往生者忌日月報表(PD430)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="471" name="奉厝申請人暨家屬資料明細表(PD473)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="473" name="奉厝資料明細表(PD453)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="475" name="往生者文件缺繳明細表(PD443)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="477" name="往生者資料重複校對表(PD433)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="479" name="往生者名牌製作資料表(PD435)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="481" name="往生者資料輸入校對表(PD437)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="483" name="奉厝資料明細統計表(PD462)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="485" name="奉厝資料統計表-客戶樓層產品別(PD461)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="254" name="聯合祭祀相關報表" meeting="false" start="2020-06-01" duration="1" complete="0" expand="false">
+                    <task id="441" name="聯合祭祀通知信函(PD466)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="443" name="聯合祭祀客戶連絡名冊(PD472)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="445" name="聯合祭祀訂購統計表(PD458)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="447" name="聯合祭祀業績/獎金統計表(PD468)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="449" name="聯合祭祀未收款/贈送/優惠資料明細表(PD469)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="451" name="聯合祭祀供品標示牌列印(PD471)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="453" name="積福供佛牌位列印(PD483)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="455" name="供佛消災祈福名冊列印(PD484)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="457" name="供佛佛像狀況表列印(PD486)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="459" name="聯合祭祀超薦名冊(PD456)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="461" name="聯合祭祀超薦名細表(PD457)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="463" name="聯合祭祀照片/發票地址標籤列印(PD459)" color="#8cb6ce" meeting="false" start="2020-06-01" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

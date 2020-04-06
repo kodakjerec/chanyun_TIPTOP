@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="http://192.168.1.226:8086/NaNaWeb/app/">
+  <information>
+    <title>組織設計師</title>
+    <vendor>流程管理系統</vendor>
+    <homepage href="http://www.dsc.com.tw"/>
+    <description kind="short">設計與管理組織的架構</description>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+    
+  
+  
+  <resources>
+    <j2se version="1.5.0_14" initial-heap-size="64m" max-heap-size="512m" href="http://java.sun.com/products/autodl/j2se"/>
+     <!--若不和Trinity整合時使用nana-organization-designer-blink.jar  -->
+    <jar href="nana-organization-designer-blink.jar" main="true" download="eager"/>
+   
+    <!-- 與Trinity整合時使用nana-organization-designer-blink-trinity.jar -->
+    
+    <property name="JSESSIONID" value="74C990DA127AC01B58C190788CA7F724"/>
+    <property name="AccessPeriod" value="5"/>
+    <property name="Locale" value="zh_TW"/>
+    <jar href="lib/nana-client-delegate.jar" download="eager"/>
+    <jar href="lib/nana-services-webstart-client.jar" download="eager"/>
+    <jar href="lib/nana-org-importer.jar" download="eager"/>
+    <jar href="lib/nana-designer-common.jar" download="eager"/>
+    <jar href="lib/Forms/forms-1.1.0.jar" download="eager"/>
+    <jar href="lib/LookAndFeel/looks-2.1.4.jar" download="eager"/>
+    <jar href="lib/JGo/JGo.jar" download="eager"/>
+    <jar href="lib/JGo/JGoLayout.jar" download="eager"/>
+    <jar href="lib/Jag/jag.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-beanutils.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-collections.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-logging.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-io.jar" download="eager"/>
+    <jar href="lib/J2EE/j2ee.jar" download="eager"/>
+    <jar href="lib/JCalendar/jcalendar-1.3.2.jar" download="eager"/>
+    <jar href="lib/JCalendar/kunststoff.jar" download="eager"/>
+    <jar href="lib/Log4J/log4j.jar" download="eager"/>
+    <jar href="lib/LookAndFeel/panel-skin.jar" download="eager"/>
+    <jar href="lib/XStream/xstream.jar" download="eager"/>
+    <jar href="lib/XStream/xpp3_min.jar" download="eager"/>
+    <jar href="lib/Xerces/resolver.jar" download="eager"/>
+    <jar href="lib/Xerces/xercesImpl.jar" download="eager"/>
+    <jar href="lib/Xerces/xml-apis.jar" download="eager"/>
+    <jar href="lib/Sdo/sdo2_1.jar" download="eager"/>
+  </resources>
+  <!-- 若不和Trinity整合時使用nana-organization-designer-blink.jar -->
+  
+      <application-desc main-class="com.dsc.nana.user_interface.apps.new_org_designer.OrgDesigner"/>
+      
+      <!-- //與Trinity整合時使用nana-organization-designer-blink-trinity.jar -->
+      
+  
+
+  
+
+  
+</jnlp>
+

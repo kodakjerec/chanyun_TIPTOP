@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="http://192.168.1.226:8086/NaNaWeb/app/">
+  <information>
+    <title>表單設計師</title>
+    <vendor>流程管理系統</vendor>
+    <homepage href="http://www.dsc.com.tw"/>
+    <description kind="short">設計與管理工作流程用的表單</description>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+    
+  
+  <resources>
+    <j2se version="1.5.0_14" initial-heap-size="64m" max-heap-size="512m" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="nana-form-designer.jar" main="true" download="eager"/>
+    <property name="JSESSIONID" value="74C990DA127AC01B58C190788CA7F724"/>
+    <property name="AccessPeriod" value="5"/>
+    <property name="Locale" value="zh_TW"/>
+    <jar href="lib/nana-client-delegate.jar" download="eager"/>
+    <jar href="lib/nana-services-webstart-client.jar" download="eager"/>
+    <jar href="lib/nana-form-importer.jar" download="eager"/>
+    <jar href="lib/nana-designer-common.jar" download="eager"/>
+    <jar href="lib/JGo/JGo.jar" download="eager"/>
+    <jar href="lib/JGo/JGoLayout.jar" download="eager"/>
+    <jar href="lib/Jag/jag.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-beanutils.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-collections.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-logging.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-io.jar" download="eager"/>
+    <jar href="lib/J2EE/j2ee.jar" download="eager"/>
+    <jar href="lib/JCalendar/jcalendar.jar" download="eager"/>
+    <jar href="lib/JCalendar/kunststoff.jar" download="eager"/>
+    <jar href="lib/Log4J/log4j.jar" download="eager"/>
+    <jar href="lib/XStream/xstream.jar" download="eager"/>
+    <jar href="lib/XStream/xpp3_min.jar" download="eager"/>
+    <jar href="lib/Dom4J/dom4j.jar" download="eager"/>
+    <jar href="lib/BrowserLauncher/BrowserLauncher.jar" download="eager"/>
+    <jar href="lib/Forms/forms-1.1.0.jar" download="eager"/>
+    <jar href="lib/Sdo/sdo2_1.jar" download="eager"/>
+  </resources>
+  <application-desc main-class="com.dsc.nana.user_interface.apps.form_designer.FormDesigner"/>
+  
+  
+
+  
+
+  
+</jnlp>
+

@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="http://192.168.1.226:8086/NaNaWeb/app/">
+  <information>
+    <title>流程設計師</title>
+    <vendor>流程管理系統</vendor>
+    <homepage href="http://www.dsc.com.tw"/>
+    <description kind="short">設計工作流程以及發起流程的權限</description>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  
+  <resources>
+    <j2se version="1.5.0_14" initial-heap-size="64m" max-heap-size="512m" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="nana-process-designer.jar" main="true" download="eager"/>
+    <property name="JSESSIONID" value="74C990DA127AC01B58C190788CA7F724"/>
+    <property name="AccessPeriod" value="5"/>
+    <property name="Locale" value="zh_TW"/>
+    <jar href="lib/nana-client-delegate.jar" download="eager"/>
+    <jar href="lib/nana-services-webstart-client.jar" download="eager"/>
+    <jar href="lib/nana-light-form-designer.jar" download="eager"/>
+    <jar href="lib/nana-designer-common.jar" download="eager"/>
+    <jar href="lib/Forms/forms-1.1.0.jar" download="eager"/>
+    <jar href="lib/JGo/JGo.jar" download="eager"/>
+    <jar href="lib/JGo/JGoLayout.jar" download="eager"/>
+    <jar href="lib/Jag/jag.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-beanutils.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-collections.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-logging.jar" download="eager"/>
+    <jar href="lib/JakartaCommons/commons-httpclient.jar" download="eager"/>
+    <jar href="lib/Jython/jython.jar" download="eager"/>
+    <jar href="lib/J2EE/j2ee.jar" download="eager"/>
+    <jar href="lib/JCalendar/jcalendar.jar" download="eager"/>
+    <jar href="lib/JCalendar/kunststoff.jar" download="eager"/>
+    <jar href="lib/Log4J/log4j.jar" download="eager"/>
+    <jar href="lib/Xerces/resolver.jar" download="eager"/>
+    <jar href="lib/Xerces/xercesImpl.jar" download="eager"/>
+    <jar href="lib/Xerces/xml-apis.jar" download="eager"/>
+    <jar href="lib/Axis/activation.jar" download="eager"/>
+    <jar href="lib/Axis/axis.jar" download="eager"/>
+    <jar href="lib/Axis/commons-discovery.jar" download="eager"/>
+    <jar href="lib/Axis/jaxrpc.jar" download="eager"/>
+    <jar href="lib/Axis/saaj.jar" download="eager"/>
+    <jar href="lib/Axis/wsdl4j.jar" download="eager"/>
+    <jar href="lib/Msv/isorelax.jar" download="eager"/>
+    <jar href="lib/Msv/msv.jar" download="eager"/>
+    <jar href="lib/Msv/relaxngDatatype.jar" download="eager"/>
+    <jar href="lib/Msv/xmlgen.jar" download="eager"/>
+    <jar href="lib/Msv/xsdlib.jar" download="eager"/>
+    <jar href="lib/XStream/xstream.jar" download="eager"/>
+    <jar href="lib/XStream/xpp3_min.jar" download="eager"/>
+    <jar href="lib/Dom4J/dom4j.jar" download="eager"/>
+    <jar href="lib/Xalan/xalan.jar" download="eager"/>
+    <jar href="lib/Xalan/serializer.jar" download="eager"/>
+    <jar href="lib/BrowserLauncher/BrowserLauncher.jar" download="eager"/>
+    <jar href="lib/Sdo/sdo2_1.jar" download="eager"/>
+  </resources>
+  <application-desc main-class="com.dsc.nana.user_interface.apps.process_designer.ProcessDesignerApp"/>
+    
+  
+  
+
+  
+
+  
+</jnlp>
+

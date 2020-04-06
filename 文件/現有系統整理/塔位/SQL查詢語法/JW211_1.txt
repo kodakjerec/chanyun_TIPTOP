@@ -1,0 +1,46 @@
+DECLARE cur_1 CURSOR FOR   
+SELECT dbo.jwt32.t3201,        //契約編號
+			dbo.jwt32.t3202,      //權狀編號
+			dbo.jwt32.t3221,      //產品類別
+			dbo.jwt32.t3205_tmp,  //應繳日期
+			sum(dbo.jwt32.t3206), //應繳金額
+			dbo.jwt51.t5103,      //存款別  
+         dbo.jwt51.t5102,      //帳號
+         dbo.jwt51.t5101       //身份證號
+FROM dbo.jwt15,
+              dbo.jwt16,   //契約異動檔
+              dbo.jwt17,   //權狀檔
+              dbo.jwt30,   //管理費分期主檔
+              dbo.jwt32,   //管理費分期明細檔
+				  dbo.jwt51    //代收服務授權檔   
+WHERE ( dbo.jwt15.t1501 = dbo.jwt17.t1705 ) //jwt15客戶異動檔 t1501身分證字號
+and             ( dbo.jwt16.t1601 = dbo.jwt17.t1701 ) //契約編號
+and             ( dbo.jwt17.t1701 = dbo.jwt30.t3001 ) //契約編號
+and             ( dbo.jwt17.t1702 = dbo.jwt30.t3005 ) //權狀編號
+and             ( dbo.jwt17.t1703 = dbo.jwt30.t3014 ) //產品編號
+and             ( dbo.jwt30.t3001 = dbo.jwt32.t3201 ) //契約編號
+and             ( dbo.jwt30.t3005 = dbo.jwt32.t3202 ) //權狀編號
+and             ( dbo.jwt30.t3014 = dbo.jwt32.t3221 ) //產品類別
+and             ( dbo.jwt17.t1701 = dbo.jwt51.t5104 ) //契約編號
+and             ( dbo.jwt17.t1702 = dbo.jwt51.t5105 ) //權狀編號
+and             ( dbo.jwt17.t1703 = dbo.jwt51.t5106 ) //產品編號
+and     ( dbo.jwt30.t3019 = dbo.jwt32.t3230 ) //類別
+and     ( dbo.jwt16.t1618 is null ) //作廢日
+and     ( dbo.jwt16.t1619 is null ) //退費日
+and  jwt32.t3223 = '4' //公司別
+and  jwt32.t3207 is null //實收日期
+and  jwt32.t3215 = '5' //繳款方式
+and dbo.jwt32.t3205 >= '2008-1-1'//應繳日期
+and dbo.jwt32.t3205 <= '2018-10-31' 
+group by dbo.jwt32.t3201,     //契約編號
+			dbo.jwt32.t3202,     //權狀編號
+			dbo.jwt32.t3221,     //產品類別
+			dbo.jwt32.t3205_tmp, //應繳日期
+			dbo.jwt51.t5103,   
+         dbo.jwt51.t5102,   
+         dbo.jwt51.t5101
+order by dbo.jwt51.t5102,//1051215 add
+			dbo.jwt32.t3201,
+			dbo.jwt32.t3202,
+			dbo.jwt32.t3221,
+			dbo.jwt32.t3205_tmp
